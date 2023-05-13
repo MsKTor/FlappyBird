@@ -139,7 +139,7 @@ class Button():
 		self.rect.topleft = (x, y)
 
 	def draw(self):
-		# draw button
+		# draw button 1
 		action = False
 		screen.blit(self.image, (self.rect.x, self.rect.y))
 		s = ''
